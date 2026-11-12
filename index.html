@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бойко Денис Сергійович. — ІМ-42 — Лабораторна робота №4 — Варіант 5</title>
+    <meta name="keywords" content="Бойко, Денис, ІМ-42, HTML5, лабораторна робота 4">
+    <meta name="description" content="Особиста сторінка Бойка Дениса Сергійовича, студента групи ІМ-42. Лабораторна робота №4: Основи FE-технологій.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main>
+        <h2>Бойко Денис Сергійович</h2>
+
+        <p>Дата і місце народження: 14.01.2007, М. Київ, Україна.</p>
+
+        <p>Освіта: Ліцей №142 1-11 Клас, НТУУ КПІ ФІОТ 1-3 Курс, група ІМ-42.</p>
+
+        <h3>Мої хобі</h3>
+        <ul>
+            <li>Гра в ігри та моди</li>
+            <li id="element-6" class="color-target" tabindex="0" title="Натисніть, щоб змінити кольори">Моддинг ігр, зокрема на idTech та Source</li>
+            <li id="element-7" class="color-target next-element" tabindex="0" title="Натисніть, щоб змінити кольори">Писання MIDI-музики у Sekaiju</li>
+            <li>Графічний дизайн у Photoshop</li>
+        </ul>
+
+        <h3>Мої улюблені книги або фільми</h3>
+        <ol>
+            <li>Фільм: Star Wars Episode III: Revenge of the Sith (2005)</li>
+            <li>Фільм: S.T.A.L.K.E.R.: Shadow of the Zone (2024)</li>
+            <li>Книга: Серія "Лабиринты Ехо"</li>
+            <li>Книга: Серія "Игра Хаоса"</li>
+        </ol>
+
+        <h3>Моє улюблене місто</h3>
+        <p>Прага</p>
+        <p>Прага — столиця та найбільше місто Чехії, розташована в західній частині Чехії, в історичній області Богемія.</p>
+        <a id="city-link" href="https://uni-travel.com.ua/stati-papka/prague-attractions.html">
+            <img id="city-image" src="images/charles-bridge-prague.jpg" alt="Прага" width="600">
+        </a>
+        <div class="image-controls" aria-label="Керування зображенням">
+            <button type="button" id="add-image">Додати</button>
+            <button type="button" id="enlarge-image">Збільшити</button>
+            <button type="button" id="shrink-image">Зменшити</button>
+            <button type="button" id="remove-image">Видалити</button>
+        </div>
+        <p id="image-status" class="status" role="status" aria-live="polite"></p>
+        <p class="hint">Натисніть на заголовок улюблених книг або фільмів та на елемент списку під ним, щоб змінити кольори. З клавіатури: Tab, потім Enter або пробіл.</p>
+    </main>
+</body>
+</html>
