@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #fff; color: #202020; font-family: Arial, sans-serif; line-height: 1.6; }
+main { max-width: 1000px; margin: 28px auto; padding: 0 24px 32px; }
+h2 { font-size: 26px; }
+h3 { margin-top: 22px; }
+.color-target { cursor: pointer; padding: 10px 16px; border-radius: 5px; background-color: #f1f3f5; color: #202020; }
+ol.color-target { padding-left: 42px; }
+.color-target:focus-visible, button:focus-visible { outline: 3px solid #1663a3; outline-offset: 3px; }
+#city-link { display: block; width: fit-content; max-width: 100%; }
+#city-image { display: block; max-width: 100%; height: auto; }
+.image-controls { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+button { padding: 8px 16px; border: 1px solid #969da4; border-radius: 4px; background: #f5f6f7; color: #202020; font: inherit; cursor: pointer; }
+button:hover:not(:disabled) { background: #e1e7ec; }
+button:disabled { opacity: 0.5; cursor: default; }
+.status { min-height: 1.6em; margin: 8px 0; }
+.hint { color: #525960; font-size: 14px; }
